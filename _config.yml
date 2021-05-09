@@ -1,0 +1,91 @@
+# Site
+name: "Golden Jubilee Interview Series"
+title: "CWT"
+description: "CSA Writing Team (CWT) presents the CSA Golden Jubilee Interview Series: The Department of Computer Science and Automation (CSA) at IISc, Bangalore was established in 1969 as the “School of Automation”. CSA celebrated its Golden Jubilee Year from August 01, 2019, to July 31, 2020. As part of this milestone, CSA started the Golden Jubilee Interview Series for which its in-house writing team interacted with eminent researchers who visited the department during the year. The idea was to record their journey in research for the benefit of current and future graduate students."
+logo: 'assets/images/logocsa3.png'
+favicon: 'assets/images/CWT.png'
+# baseurl: /mediumish-theme-jekyll
+baseurl: '/csa-writing-team'
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  stan:
+    name: Stanly Samuel
+    display_name: Stanly Samuel
+    avatar: 'assets/images/MPI_Stan_copy.jpg'
+    web: https://www.csa.iisc.ac.in/people/stanly-john-samuel/
+    description: "Editor-in-chief, CSA Writing Team and Ph.D. student, CSA, IISc."
+  shubham:
+    name: Shubham Gupta
+    display_name: Shubham Gupta
+    avatar: 'assets/images/shubham.jpg'
+    web: https://scholar.google.co.in/citations?user=Nt-tK2UAAAAJ&hl=en
+    description: "Member, CSA Writing Team and Ph.D student, CSA, IISc."
+  mahak:
+    name: Mahak Pancholi
+    display_name: Mahak Pancholi
+    avatar: 'assets/images/mahak.jpg'
+    web: https://pure.au.dk/portal/en/persons/mahak-rakesh-pancholi(4ec9a7d4-f10e-4f8e-a16b-ea8246d56ebb).html
+    description: "Member, CSA Writing Team and Ph.D student, Aarhus University, Denmark. Previously, an MTech student at CSA, IISc"
+  # sal:
+  #   name: Sal
+  #   display_name: Sal
+  #   gravatar: e56154546cf4be74e393c62d1ae9f9d4
+  #   email: wowthemesnet@gmail.com
+  #   web: https://www.wowthemes.net
+  #   twitter: https://twitter.com/wowthemesnet
+  #   description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  # john:
+  #   name: John
+  #   display_name: John    
+  #   avatar: 'assets/images/avatar.png'
+  #   gravatar: b1cc14991db7a456fcd761680bbc8f81
+  #   email: wowthemesnet@gmail.com
+  #   web: https://www.wowthemes.net
+  #   twitter: https://twitter.com/wowthemesnet
+  #   description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
