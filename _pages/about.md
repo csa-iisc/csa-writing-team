@@ -12,7 +12,7 @@ comments: false
 
 <h4>Got ideas? Want to contribute?</h4>
 
-<p> <a href="mailto:stanly@iisc.ac.in">Contact us.</a></p>
+<p> <a href="mailto:cwt@iisc.ac.in">Contact us.</a></p>
 
 </div>
 
